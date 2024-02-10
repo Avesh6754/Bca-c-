@@ -1,9 +1,17 @@
 #include<iostream>
 using namespace std;
 
-void display(char*);
-void display(string);
 
+void display(string s)
+{
+	cout<<"String : "<<s<<" "<<endl;
+}
+
+void display(char s[])
+{
+	cout<<"Character : "<<s<<" "<<endl;
+	
+}
 main()
 {
 	string str1;
@@ -16,15 +24,4 @@ main()
 	display(str1);
 	display(str);
 
-}
-
-void display(string s)
-{
-	cout<<"String second : "<<s<<" "<<endl;
-}
-
-void display(char s[])
-{
-	cout<<"String : "<<s<<" "<<endl;
-	
 }
