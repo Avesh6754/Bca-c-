@@ -1,7 +1,5 @@
 #include<iostream>
 using namespace std;
-
-
 int main()
 {
 	char str[50];
@@ -10,7 +8,6 @@ int main()
 	cout<<"First string : "<<str<<" "<<endl;
 	cout<<"Enter the another string : ";
 	cin>>str;
-	
 	cout<<"Second string : "<<str<<" ";
 	return 0;	
 }
